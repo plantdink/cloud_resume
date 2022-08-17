@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ken Livesey - Cloud Resume</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" async></script>
+    <script src="https://kit.fontawesome.com/0b26d5c950.js" crossorigin="anonymous" async></script>
+  </head>
+  <body>
+    <div class="cr-top">
+      <div class="cr-bar" id="myNavbar">
+        <a
+          class="cr-bar-item cr-button cr-hover-black cr-hide-medium cr-hide-large cr-right"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="cr-bar-item cr-button">HOME</a>
+        <a href="#about" class="cr-bar-item cr-button cr-hide-small">
+          PROFILE
+        </a>
+        <a href="#skills" class="cr-bar-item cr-button cr-hide-small">
+          SKILLS
+        </a>
+        <a href="#history" class="cr-bar-item cr-button cr-hide-small">
+          HISTORY
+        </a>
+        <a href="#education" class="cr-bar-item cr-button cr-hide-small">
+          EDUCATION
+        </a>
+        <a href="#projects" class="cr-bar-item cr-button cr-hide-small">
+          PROJECTS
+        </a>
+        <a href="#contact" class="cr-bar-item cr-button cr-hide-small">
+          CONTACT
+        </a>
+        <a
+          href="#"
+          class="cr-bar-item cr-button cr-hide-small cr-right cr-hover-red"
+        >
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="cr-bar-block cr-white cr-hide cr-hide-large cr-hide-medium"
+      >
+        <a
+          href="#about"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >PROFILE</a
+        >
+        <a
+          href="#skills"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >SKILLS</a
+        >
+        <a
+          href="#history"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >HISTORY</a
+        >
+        <a
+          href="#education"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >EDUCATION</a
+        >
+        <a
+          href="projects"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >PROJECTS</a
+        >
+        <a
+          href="contact"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >CONTACT</a
+        >
+        <a href="#" class="cr-bar-item cr-button">SEARCH</a>
+      </div>
+    </div>
+
+    <!-- First parallax image with logo  -->
+    <div class="bgimg-1 cr-display-container cr-opacity-min" id="home">
+      <div class="cr-display-middle" style="white-space:nowrap;">
+        <h1
+          class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity"
+          >KEN LIVESEY
+        </h1>
+        <h1 class="cr-center cr-title cr-animate-opacity">CLOUD ENGINEER / DEVOPS</h1>
+      </div>
+    </div>
+
+    <!-- Container (Profile Section) -->
+    <div class="cr-content cr-container cr-padding-64" id="about">
+      <h3 class="cr-center">ABOUT ME</h3>
+      <p>
+        Ever since the Commodore C64 I have had a fascination with computers and
+        what makes them tick. Cloud technologies and global distributed
+        computing are no longer just an idea and I am excited at the possibility
+        of developing software for this area. Edge computing and micro cloud is
+        one aspect I am keenly interested in.
+      </p>
+      <p>
+        I am a creative, hard-working problem solver. I love to learn and enjoy
+        applying that knowledge in a practical way to make life easier for other
+        people. After a few detours I am now actively pursuing a career in
+        cloud-focused software development. My previous experience allows me to
+        offer unique insight and a highly practical perspective. Small,
+        close-knit team environments that contribute to the big picture are
+        where I excel and I have a proven record of high performance in the most
+        demanding of roles and situations.
+      </p>
+      </div>
+    </div>
+
+    <!-- Container (technical skills section) -->
+    <div class="cr-content cr-container cr-padding-64" id="skills">
+      <h3 class="cr-center">TECHNICAL SKILLS</h3>
+      <p class="cr-center"><em>Summary</em></p>
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>AWS Core Services</b>
+          </p>
+          <br />
+        </div>
+
+        <!-- AWS -->
+        <div class="cr-col m6 cr-padding-large">
+          <ul>
+            <li>Compute</li>
+            <ul>
+              <li>EC2, Lambda</li>
+              <li>ECS, Elastic Beanstalk</li>
+            </ul>
+            <li>Database</li>
+            <ul>
+              <li>RDS, Aurora, DynamoDB</li>
+            </ul>
+            <li>Storage</li>
+            <ul>
+              <li>S3, EFS</li>
+            </ul>
+            <li>Networking</li>
+            <ul>
+              <li>VPC, Route 53, CloudFront</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Software Development</b>
+          </p>
+          <br />
+        </div>
+
+        <!-- Software development -->
+        <div class="cr-col m6 cr-padding-large">
+          <ul>
+            <li>Linux, Bash</li>
+            <li>Python, Ruby</li>
+            <li>JavaScript, TypeScript</li>
+            <li>React, Vue.js, Node.js, Express.js</li>
+            <li>HTML, CSS</li>
+            <li>Bash</li>
+            <li>Git, GitHub</li>
+            <li>MySQL, PostgreSQL, MongoDB, GraphQL</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Design & Multimedia</b>
+          </p>
+          <br />
+        </div>
+
+        <!-- design & multimedia -->
+        <div class="cr-col m6 cr-padding-large">
+          <ul>
+            <li>Illustrator, Photoshop, Lightroom</li>
+            <li>Premiere Pro, After Effects</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Parallax Image with history text -->
+    <div class="bgimg-2 cr-display-container cr-opacity-min">
+      <div class="cr-display-middle">
+        <h2 class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">WORK HISTORY</h2>
+      </div>
+    </div>
+
+        <!-- Container (work history section) -->
+    <div class="cr-content cr-container cr-padding-64" id="history">
+      <h3 class="cr-center">EMPLOYMENT</h3>
+      <div class="cr-row">
+          <!-- Computershare -->
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Associate Solutions Engineer</b>
+          </p>
+          <p>Computershare | Aug 2021 - Nov 2021</p>
+          <br />
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+            <p>
+                Worked on an internal enterprise-level MVP as part of an international agile team. Wrote and implemented a BDD test suite.
+            </p>
+        </div>
+      </div>
+
+      <!-- VICGOV -->
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Digital & Design Coordinator</b>
+          </p>
+          <p>Victorian Government | Jun 2016 - Nov 2020</p>
+          <br />
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+            <p>
+                Collaborated with multiple key stakeholders and product owners to audit over 170 paper-based application kits & forms and create fully accessible interactive versions.
+            </p>
+        </div>
+      </div>
+
+      <!-- VicPol -->
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Multimedia Production Officer</b>
+          </p>
+          <p>Victoria Police | Feb 2015 - May 2016</p>
+          <br />
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+            <p>
+                Worked in cross-functional teams to produce multimedia training packages. By allowing better separation between theory and practical lessons each package returned, on average, 10hrs to active policing per officer.
+            </p>
+        </div>
+      </div>
+
+      <!-- Freelancer -->
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Freelancer - Video/Photography</b>
+          </p>
+          <p>Freelance | Aug 2014 - Feb 2015</p>
+          <br />
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+            <p>
+                Successfully developed a repeat customer base by providing high quality video and still photography.
+            </p>
+        </div>
+      </div>
+
+      <!-- Army -->
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Multimedia Technician</b>
+          </p>
+          <p>Australian Defence Force | Dec 2005 - Jul 2014</p>
+          <br />
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+            <p>
+                Researched, developed and implemented a digital asset management system for hand-held imagery. Deployed to Afghanistan to implement the system into active military special operations which resulted in a database that is still in active use over 10 years later.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with education text -->
+    <div class="bgimg-3 cr-display-container cr-opacity-min">
+      <div class="cr-display-middle">
+        <span class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">EDUCATION</span>
+      </div>
+    </div>
+
+
+    <!-- Container (Education & qualifications section) -->
+    <div class="cr-content cr-container cr-padding-64" id="education">
+      <h3 class="cr-center">EDUCATION & QUALIFICATIONS</h3>
+      <div class="cr-row">
+        <!-- AWS re/Start-->
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>AWS re/Start</b>
+          </p>
+          <p>Goanna Education | May 2022 - Aug 2022</p>
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+          <ul>
+            <li>
+            completed full-time, classroom based skills development and
+            training program on IT fundamentals, AWS Cloud, and professional
+            skills
+          </li>
+            <li>
+              built IT fundamental skills, including: working knowledge
+            of Linux OS, writing scripts in Python and Shell
+            </li>
+            <li>
+              learned how to apply core AWS services in the areas of compute, storage and networking including EC2, S3, IAM, VPC, Lambda, Cloud Formation, RDS and Route 53
+            </li>
+            <li>
+              learned how to configure, monitor, and support the suite of core AWS services
+            </li>
+            <li>
+              demonstrated strong verbal and written communication skills, including the ability to explain technical information and terminology to non-technical end users.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- GA SEI -->
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>Software Engineering Intensive</b>
+          </p>
+          <p>General Assembly | Dec 2020 - Mar 2021</p>
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+          <ul>
+            <li>
+              completed a 12 week, full-time, online classroom-based skills
+            development and training program
+            </li>
+            <li>
+              learned the core skills to build full-stack web applications on the job: computer science fundamentals, collaboration tools, and modern programming languages
+            </li>
+            <li>
+              built multiple full-stack projects using modern frameworks and
+            stacks by applying essential object-oriented programming concepts,
+            and leveraging JavaScript libraries like React
+            </li>
+            <li>
+              incorporated functionality from third-party APIs
+            </li>
+            <li>
+              strengthened existing effective communication skills by collaborating with other students during joint programs to act as a web development team in order to carry out projects from concept to completion
+            </li>
+            <li>
+              practiced version control with Git and GitHub while executing software engineering projects in an Agile development workflow
+            </li>
+            <li>
+              explored the basics of DevOps, UX engineering, and cloud development during optional, self-paced content.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- GA UX-->
+      <div class="cr-row">
+        <div class="cr-col m6 cr-left cr-padding-large">
+          <p>
+            <b>User Experience Design</b>
+          </p>
+          <p>General Assembly | Oct 2019 - Oct 2019</p>
+        </div>
+
+        <div class="cr-col m6 cr-padding-large">
+          <ul>
+            <li>
+              completed a 1 week classroom-based program focusing on core User
+              Experience design concepts
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Forth Parallax Image with Portfolio Text -->
+    <div class="bgimg-4 cr-display-container cr-opacity-min">
+        <div class="cr-display-middle">
+            <span class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">CLOUD PROJECTS</span>
+        </div>
+    </div>
+
+    <!-- Container (Projects section) -->
+    <div class="cr-content cr-container cr-padding-64" id="projects">
+        <h3 class="cr-center">MY PROJECTS</h3>
+        <p class="cr-center">
+          <em>Here are some of my latest cloud projects</em>
+        </p>
+        <br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="cr-row-padding cr-center">
+          <h4 class="cr-center">Projects coming soon......</h4>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="cr-modal cr-black" onclick="this.style.display='none'">
+    <span class="cr-button cr-large cr-black cr-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="cr-modal-content cr-animate-zoom cr-center cr-transparent cr-padding-64">
+            <img id="img01" class="cr-image">
+            <p id="caption" class="cr-opacity cr-large"></p>
+        </div>
+    </div>
+
+    <!-- Fifth parallax Image with contact text -->
+    <div class="bgimg-5 cr-display-container cr-opacity-min">
+        <div class="cr-display-middle">
+            <span class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact section) -->
+    <div class="cr-content cr-container cr-padding-64" id="contact">
+      <h3 class="cr-center">WHERE I CURRENTLY WORK</h3>
+      <p class="cr-center">
+        <em>
+          I would love to have a chat. Get in touch for a cup of coffee.
+        </em>
+      </p>
+
+      <div class="cr-row cr-padding-32 cr-section">
+        <div class="cr-col m4 cr-container">
+          <img src="images/MelbourneMap.png" alt="map image" class="cr-image cr-round">
+        </div>
+
+        <div class="cr-col m8 cr-panel">
+          <div class="cr-large cr-margin-bottom">
+            <i class="fa fa-map-marker fa-fw cr-hover-text-black cr-xlarge cr-margin-right"></i> Melbourne, Australia<br>
+            <i class="fa fa-envelope fa-fw cr-hover-text-black cr-xlarge cr-margin-right"></i> Email: ken.livesey10@gmail.com<br>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="cr-center cr-blue cr-padding-64 cr-hover-opactiy-off">
+      <a href="#home" class="cr-button cr-light-grey"><i class="fa fa-arrow-up cr-margin-right"></i>To the top</a>
+      <div class="cr-xlarge cr-section">
+        <a href="https://www.linkedin.com/in/kenlivesey/" class="cr-button"><i class="fa-brands fa-linkedin cr-hover-opactiy"></i></a>
+        <a href="https://github.com/plantdink" class="cr-button"><i class="fa-brands fa-github cr-hover-opactiy"></i></a>
+        <a href="https://ken-livesey-portfolio.netlify.app/" class="cr-button"><i class="fa-solid fa-globe cr-hover-opactiy"></i></a>
+        <a href="https://www.flickr.com/photos/plantdink/" class="cr-button"><i class="fa-brands fa-flickr cr-hover-opactiy"></i></a>
+        
+      </div>
+    </footer>
+  </body>
+</html>
