@@ -3,7 +3,6 @@
 > This project is my version of the Cloud Resume Challenge, incorporating AWS services. This project has been started following the completion of an AWS re/Start course and is intended to practice deploying a cloud-based project.
 
 <br>
-<br>
 
 ## Acknowledgments :thumbsup:
 
