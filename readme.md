@@ -6,9 +6,9 @@
 
 ## Acknowledgments :thumbsup:
 
-> **[?]** Reference someone's code you used, insert an external link or thank people, i.e.:
+> Inspiration for this project was the excellent Cloud Resume project (link below):
 
-- [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/). Inspiration for this project.
+- [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/).
 
 ## To-Do
 
