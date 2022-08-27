@@ -23,3 +23,24 @@ function toggleFunction() {
         x.className = x.className.replace(' cr-show', '');
     }
 }
+
+
+// GET API REQUEST
+async function get_visitors() {
+    try {
+        let response = await fetch(
+          "https://sqq5itvs97.execute-api.ap-southeast-2.amazonaws.com/Prod/count",
+          {
+            method: "GET"
+          }
+        );
+        let data = await response.json()
+        document.getElementById("visitors").innerHTML = data['visitor_count'] + " views";
+        // console.log(data);
+        return data;
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+window.onload = get_visitors();
