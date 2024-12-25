@@ -4,6 +4,10 @@
 
 <br>
 
+## Last Update
+
+Resume content was last updated 26 Dec 2024.
+
 ## Acknowledgments :thumbsup:
 
 > Inspiration for this project was the excellent Cloud Resume project (link below):
@@ -16,8 +20,8 @@
 
 - [x] HTML
 - [x] CSS
-- [ ] DNS
-- [ ] HTTPS
-- [ ] connect to S3 bucket
-- [ ] connect to database to track visitor count
-- [ ] CI/CD
+- [x] DNS
+- [x] HTTPS
+- [x] connect to S3 bucket
+- [x] connect to database to track visitor count
+- [x] CI/CD

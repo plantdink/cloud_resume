@@ -24,6 +24,9 @@
         <a href="#about" class="cr-bar-item cr-button cr-hide-small">
           PROFILE
         </a>
+        <a href="#certs" class="cr-bar-item cr-button cr-hide-small">
+          CERTIFICATIONS
+        </a>
         <a href="#skills" class="cr-bar-item cr-button cr-hide-small">
           SKILLS
         </a>
@@ -32,9 +35,6 @@
         </a>
         <a href="#education" class="cr-bar-item cr-button cr-hide-small">
           EDUCATION
-        </a>
-        <a href="#projects" class="cr-bar-item cr-button cr-hide-small">
-          PROJECTS
         </a>
         <a href="#contact" class="cr-bar-item cr-button cr-hide-small">
           CONTACT
@@ -59,6 +59,12 @@
           >PROFILE</a
         >
         <a
+          href="#certs"
+          class="cr-bar-item cr-button"
+          onclick="toggleFunction()"
+          >CERTIFICATIONS</a
+        >
+        <a
           href="#skills"
           class="cr-bar-item cr-button"
           onclick="toggleFunction()"
@@ -77,12 +83,6 @@
           >EDUCATION</a
         >
         <a
-          href="projects"
-          class="cr-bar-item cr-button"
-          onclick="toggleFunction()"
-          >PROJECTS</a
-        >
-        <a
           href="contact"
           class="cr-bar-item cr-button"
           onclick="toggleFunction()"
@@ -99,106 +99,125 @@
           class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity"
           >KEN LIVESEY
         </h1>
-        <h1 class="cr-center cr-title cr-animate-opacity">CLOUD ENGINEER / DEVOPS</h1>
+        <h1 class="cr-center cr-title cr-animate-opacity">CLOUD ENGINEER</h1>
       </div>
     </div>
 
     <!-- Container (Profile Section) -->
     <div class="cr-content cr-container cr-padding-64" id="about">
-      <h3 class="cr-center">ABOUT ME</h3>
+      <h3 class="cr-center">About Me</h3>
       <p>
         Ever since the Commodore C64 I have had a fascination with computers and
         what makes them tick. Cloud technologies and global distributed
-        computing are no longer just an idea and I am excited at the possibility
-        of developing software for this area. Edge computing and micro cloud is
-        one aspect I am keenly interested in.
+        computing are no longer just an idea and I genuinely enjoy working in this area. Containerisation, Orchestration, Edge computing and microclouds are areas I am keenly interested in.
       </p>
       <p>
         I am a creative, hard-working problem solver. I love to learn and enjoy
         applying that knowledge in a practical way to make life easier for other
-        people. As a career-changer I am actively pursuing cloud-focused software development roles. My previous experience allows me to
+        people. As a career-changer my previous experience allows me to
         offer unique insight and a highly practical perspective. Small,
         close-knit team environments that contribute to the big picture are
-        where I excel and I have a proven record of high performance in the most
-        demanding of roles and situations.
+        where I excel. I have a proven record in designing, implementing, maintaining daily operation of and optimising cloud infrastructure. I also bring a history of high performance in the most demanding of situations and roles.
       </p>
+      <p>
+        I am interested in pursuing suitable Cloud Engineer, Platform Engineer or Site Reliability Engineer roles.
+      </p>
+      </div>
+    </div>
+
+    <div class="cr-content cr-container cr-padding-64" id="certs">
+      <h3 class="cr-center">Professional Certifications</h3>
+      <div class="cr-row">
+        <div class="m6 cr-padding-large">
+          <ul>
+            <li>AWS Solutions Architect Associate (Jan 2023)</li>
+            <li>AWS Developer Associate (Feb 2024)</li>
+            <li>AWS SysOps Administrator Associate (Feb 2024)</li>
+            <li>Datadog Technical Specialist (Jul 2023)</li>
+            <li>
+              Certificate III in Printing & Graphic Arts - Multimedia (2005)
+            </li>
+            <li>Certificate IV in Assessment & Workplace Training (2004)</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <!-- Container (technical skills section) -->
     <div class="cr-content cr-container cr-padding-64" id="skills">
-      <h3 class="cr-center">TECHNICAL SKILLS</h3>
-      <p class="cr-center"><em>Summary</em></p>
+      <h3 class="cr-center">Cloud Engineering Core Technical Skills</h3>
       <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>AWS Core Services</b>
-          </p>
-          <br />
-        </div>
+        <div class="m6 cr-padding-large">
+            <b>Platform Expertise</b>
+            <ul>
+              <!-- AWS Services -->
+              <li><b>AWS Services</b></li>
+                <ul>
+                  <li><b>Compute: </b>EC2, Lambda, ECS, EKS</li>
+                  <li><b>Storage: </b>S3, EBS, EFS</li>
+                  <li><b>Databases: </b>RDS, DynamoDB, Aurora, DocumentDB</li>
+                  <li><b>Networking: </b>VPC, ELB, Route 53, CloudFront</li>
+                  <li><b>End User Computing: </b>AppStream 2.0</li>
+                </ul>
+              <li><b>Infrastructure as Code: </b>Terraform, CloudFormation</li>
+              <li><b>Containerization and Orchestration: </b>Docker, Kubernetes</li>
+              <li><b>CI/CD Pipelines: </b>GitHub Actions, AWS CodePipeline</li>
+              <li><b>Observability and Monitoring: </b>CloudWatch, Datadog, Grafana</li>
+            </ul>
 
-        <!-- AWS -->
-        <div class="cr-col m6 cr-padding-large">
-          <ul>
-            <li>Compute</li>
-            <ul>
-              <li>EC2, Lambda</li>
-              <li>ECS, Elastic Beanstalk</li>
-            </ul>
-            <li>Database</li>
-            <ul>
-              <li>RDS, Aurora, DynamoDB</li>
-            </ul>
-            <li>Storage</li>
-            <ul>
-              <li>S3, EFS</li>
-            </ul>
-            <li>Networking</li>
-            <ul>
-              <li>VPC, Route 53, CloudFront</li>
-            </ul>
-          </ul>
-        </div>
-      </div>
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>Software Development</b>
-          </p>
-          <br />
-        </div>
-
-        <!-- Software development -->
-        <div class="cr-col m6 cr-padding-large">
-          <ul>
-            <li>Linux, Bash</li>
-            <li>Python, Ruby</li>
-            <li>JavaScript, TypeScript</li>
-            <li>React, Vue.js, Node.js, Express.js</li>
-            <li>HTML, CSS</li>
-            <li>Bash</li>
-            <li>Git, GitHub</li>
-            <li>MySQL, PostgreSQL, MongoDB, GraphQL</li>
-            <li>Docker</li>
-          </ul>
         </div>
       </div>
 
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>Design & Multimedia</b>
-          </p>
-          <br />
-        </div>
 
-        <!-- design & multimedia -->
-        <div class="cr-col m6 cr-padding-large">
-          <ul>
-            <li>Illustrator, Photoshop, Lightroom</li>
-            <li>Premiere Pro, After Effects</li>
-            <li>Figma</li>
-          </ul>
+      <!-- Security and Compliance -->
+      <div class="cr-row">
+        <div class="m6 cr-padding-large">
+          <b>Security and Compliance</b>
+            <ul>
+              <li><b>Identity and Access Management: </b>IAM Identity Center, Cognito, Directory Service</li>
+              <li><b>Security, Identity, and Compliance: </b>WAF, GuardDuty, SecurityHub</li>
+              <li><b>AWS Well-Architected Framework: </b>Assessment and Remediation</li>
+            </ul>
+
+        </div>
+      </div>
+
+      <!-- Developer Skills -->
+      <div class="cr-row">
+        <div class="m6 cr-padding-large">
+          <b>Developer Skills</b>
+            <ul>
+              <li><b>Programming Languages: </b>Python, JavaScript, TypeScript</li>
+              <li><b>Frameworks and Libraries: </b>Vue.js, Node.js, Express.js, GraphQL</li>
+              <li><b>Databases: </b>MySQL, PostgreSQL, MongoDB</li>
+              <li><b>Version Control: </b>Git (GitHub, BitBucket)</li>
+            </ul>
+        </div>
+      </div>
+
+      <!-- Operational skills -->
+      <div class="cr-row">
+        <div class="m6 cr-padding-large">
+          <b>Operational Skills</b>
+            <ul>
+              <li><b>AWS Account management: </b>Day-to-day operations, Organizations</li>
+              <li><b>Cloud Migrations: </b>Strategy, planning, execution</li>
+              <li><b>Cost Optimisation: </b>Analysis, optimisation techniques</li>
+              <li><b>Linux Administration: </b>Bash scripting, troubleshooting</li>
+              <li><b>Collaboration Tools: </b>Slack, Confluence, Jira</li>
+            </ul>
+        </div>
+      </div>
+
+      <!-- Design & Multimedia -->
+      <div class="cr-row">
+        <div class="m6 cr-padding-large">
+          <b>Design & Multimedia</b>
+            <ul>
+              <li><b>Graphics: </b>Illustrator, InDesign, Photoshop, Lightroom</li>
+              <li><b>Motion Graphics: </b>Premiere Pro, After Effects</li>
+            </ul>
+
         </div>
       </div>
     </div>
@@ -206,230 +225,556 @@
     <!-- Second Parallax Image with history text -->
     <div class="bgimg-2 cr-display-container cr-opacity-min">
       <div class="cr-display-middle">
-        <h2 class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">WORK HISTORY</h2>
+        <h2 class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">Work History</h2>
       </div>
     </div>
 
         <!-- Container (work history section) -->
     <div class="cr-content cr-container cr-padding-64" id="history">
-      <h3 class="cr-center">EMPLOYMENT</h3>
-      <div class="cr-row">
-          <!-- Computershare -->
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>Associate Solutions Engineer</b>
-          </p>
-          <p>Computershare | Aug 2021 - Nov 2021</p>
-          <br />
+      <h3 class="cr-center">Employment</h3>
+      <div class="cr-row cr-padding-large">
+        <!-- FitzroyIT -->
+        <div class="m6 cr-padding">
+          <h4>Fitzroy IT</h4>
+          <p><b>Cloud Engineer</b> | Melbourne, Australia | Oct 2022 - Sep 2024</p>
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
-            <p>
-                Worked on an internal enterprise-level MVP as part of an international agile team. Wrote and implemented a BDD test suite.
-            </p>
+        <div class=" m6 cr-padding">
+          <b>Key achievements</b>
+          <ul>
+            <li>
+              Designed and implemented the infrastructure for an online medical clinic using Amazon AppStream 2.0 which allowed the cloud use of an on-premises software system. This resulted in the client being able to reduce hardware capital expenditure by 50%.
+            </li>
+            <li>
+              Implemented the cloud infrastructure and CRM for a community sports club to enable online, digital management of memberships. This allowed the club to move from using a purely paper-based system to a modern CRM that reduced the membership administration by 40% at the yearly renewal time.
+            </li>
+          </ul>
+        </div>
+
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <p>
+            <ul>
+              <li>
+                <b>Cloud Infrastructure Engineering:</b>
+                  <ul>
+    
+                    <li>
+                      migrated numerous clients workloads to AWS, reducing costs by 20% on average through strategic resource optimisation and rightsizing.
+                    </li>
+                  <li>
+                    implemented and maintained robust, scalable, and secure cloud infrastructures, leveraging AWS services including EC2, S3, RDS, ECS, EKS, and Lambda.
+                  </li>
+                  <li>
+                    utilised infrastructure as code (IaC) tools like Terraform and CloudFormation to automate deployments and ensure consistency.
+                  </li>
+                  <li>
+                    monitored and optimised cloud infrastructure performance, cost, and security, utilising CloudWatch and Datadog for observability.
+                  </li>
+                  <li>
+                    implemented and maintained CI/CD pipelines using Bitbucket Pipelines, GitHub Actions, and AWS CodePipeline and CodeBuild to accelerate delivery cycles.
+                  </li>
+                  <li>
+                    automated routine tasks and processes using AWS tools (System Manager, CDK) or scripting languages (Python, Bash).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>Client Consulting and Support:</b>
+                <ul>
+                  <li>
+                    provided expert-level consulting advice to clients, including identifying performance optimisations, implementing security best practices and carrying out Well-Architected Framework Reviews (WAFR).
+                  </li>
+                  <li>
+                    conducted 15 x WAFR assessments, liaised with clients, identifying and implementing recommendations to improve architectural design, resource utilisation, cost efficiency, security posture and disaster recovery preparedness.
+                  </li>
+                  <li>
+                    delivered technical training and guidance to clients, allowing them to more effectively leverage AWS services.
+                  </li>
+                  <li>
+                    responded to and resolved high-priority P1 incidents, ensuring minimal downtime and business impact. Participated in post incident processes to ensure transfer of knowledge about causes and rectification steps.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>Teamwork and Mentorship:</b>
+                <ul>
+                  <li>
+                    mentored 1 x junior cloud engineer and 2 x IT support technicians to ensure a culture of continuous learning and skill development.
+                  </li>
+                  <li>
+                    collaborated effectively with cross-functional teams (software developers, project and product managers, business development) to deliver 10 x internal projects.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+          <br />
+        </div>
+      </div>
+        
+      <!-- Computershare -->
+      <div class="cr-row cr-padding-large">
+        <div class="m6 cr-padding">
+          <h4>Computershare</h4>
+          <p>
+            <b>Associate Solutions Engineer</b> | Melbourne, Australia | Aug 2021 - Nov 2021
+          </p>
+        </div>
+        
+        <div class="m6 cr-padding">
+          <b>Key achievement</b>
+          <ul>
+            <li>
+              Worked on an internal enterprise-level MVP as part of an international agile team. Wrote and implemented a BDD test suite.
+            </li>
+          </ul>
+        </div>
+
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <ul>
+            <li>
+              <b>Software Development:</b>
+              <ul>
+                <li>
+                  developed and maintained web applications using JavaScript and React.
+                </li>
+                <li>
+                  integrated APIs, databases, and external systems to build robust solutions.
+                </li>
+                <li>
+                  wrote and executed unit, integration, and end-to-end tests to ensure code quality.
+                </li>
+                <li>
+                  refactored and optimised existing codebases to improve performance and maintainability.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>Collaboration and Problem-Solving:</b>
+              <ul>
+                <li>
+                  <b>Cross-Functional Teamwork: </b>Collaborated with internal stakeholders, software engineers, and other teams to understand requirements, resolve issues, and deliver solutions
+                </li>
+                <li>
+                  <b>Issue Resolution: </b>Identified, diagnosed, and resolved technical issues and bugs in a timely manner.
+                </li>
+                <li>
+                  <b>Knowledge Sharing: </b>Maintained and updated internal documentation and knowledge bases to facilitate knowledge transfer and team collaboration.
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
 
       <!-- VICGOV -->
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
+      <div class="cr-row cr-padding-large">
+        <div class="m6 cr-padding">
+          <h4>Victorian Commission for Gambling and Liquor Regulation</h4>
           <p>
-            <b>Digital & Design Coordinator</b>
+            <b>Digital & Design Coordinator</b> | Victoria, Australia | Jun 2016 - Nov 2020
           </p>
-          <p>Victorian Government | Jun 2016 - Nov 2020</p>
-          <br />
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
-            <p>
-                Collaborated with multiple key stakeholders and product owners to audit over 170 paper-based application kits & forms and create fully accessible interactive versions.
-            </p>
+        <div class="m6 cr-padding">
+          <b>Key achievement</b>
+          <ul>
+            <li>
+              Collaborated with multiple key stakeholders and product owners to audit over 170 paper-based application kits & forms to create fully accessible interactive electronic versions.
+            </li>
+          </ul>
+        </div>
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <ul>
+            <li>
+              <b>Digital Content Creation and Management: </b>developed and published engaging content for various digital platforms, including websites, publications, and social media. This included creating digital design elements, producing videos, and designing interactive forms.
+            </li>
+            <li>
+              <b>Design and Production of Visual Materials: </b>Designed and constructed a range of visual materials, such as posters, reports, Annual Reports, and other communication collateral, ensuring consistency with established branding guidelines.
+            </li>
+            <li>
+              <b>Branding and Style Guide Adherence: </b>Ensured all digital and print materials adhered to the Victorian Government's style and visual branding guidelines, as well as any specific departmental or program branding. Provided advice and guidance to others on these guidelines.
+            </li>
+            <li>
+              <b>Stakeholder Collaboration and Communication: </b>Liaised with subject matter experts, stakeholders, and internal teams to gather information, obtain approvals, and ensure the accuracy and effectiveness of communication materials. This included negotiating content and managing the sign-off process.
+            </li>
+            <li>
+              <b>Problem-Solving and Issue Resolution: </b>Identified and addressed potential issues related to design, content, and production. Provided recommendations and advice on mitigation and resolution strategies.
+            </li>
+            <li>
+              <b>Print Management and Approvals: </b>Managed the print approval process, ensuring adherence to relevant guidelines and quality standards. Provided advice on print specifications and options.
+            </li>
+            <li>
+              <b>Content Development and Publishing: </b>Developed and published content for various online and offline channels, ensuring accessibility and adherence to relevant standards.
+            </li>
+          </ul>
         </div>
       </div>
 
       <!-- VicPol -->
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
+      <div class="cr-row cr-padding-large">
+        <div class="m6 cr-padding">
+          <h4>Victoria Police</h4>
           <p>
-            <b>Multimedia Production Officer</b>
+            <b>Multimedia Production Officer</b> | Melbourne, Australia | Feb 2015 - May 2016
           </p>
-          <p>Victoria Police | Feb 2015 - May 2016</p>
-          <br />
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
-            <p>
-                Worked in cross-functional teams to produce multimedia training packages. By allowing better separation between theory and practical lessons each package returned, on average, 10hrs to active policing per officer.
-            </p>
-        </div>
-      </div>
+        <div class="m6 cr-padding">
+          <b>Key achievement</b>
+          <ul>
+            <li>
+              Worked in cross-functional teams to produce multimedia training packages. By allowing better separation between theory and practical lessons each package returned, on average, 10hrs to active policing per officer.
+            </li>
+          </ul>
+          </div>
 
-      <!-- Freelancer -->
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>Freelancer - Video/Photography</b>
-          </p>
-          <p>Freelance | Aug 2014 - Feb 2015</p>
-          <br />
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <ul>
+            <li>
+              <b>Multimedia Content Creation: </b>Developed and produced high-quality multimedia content, including videos, photography, animations, graphics, and interactive elements for various platforms and purposes (training, promotion, internal communications, etc.).
+            </li>
+            <li>
+              <b>Design and Branding: </b>Designed graphics, created package style guides, and ensured all materials adhered to Victoria Police branding guidelines and visual identity.
+            </li>
+            <li>
+              <b>Online Learning Development: </b>Designed and developed engaging and effective online learning courses, including interactive content and assessments, using the Content and Learning Management System (CLMS).
+            </li>
+            <li>
+              <b>Web and Intranet Management: </b>Maintained and updated web and intranet pages, ensuring content was accurate, current, accessible, and aligned with organisational messaging.
+            </li>
+            <li>
+              <b>Executive Support: </b>Created corporate messaging materials for Senior Executive, including videos, posters, newsletters, infographics, and other communication tools.
+            </li>
+          </ul>
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
-            <p>
-                Successfully developed a repeat customer base by providing high quality video and still photography.
-            </p>
-        </div>
       </div>
 
       <!-- Army -->
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>Multimedia Technician</b>
-          </p>
-          <p>Australian Defence Force | Dec 2005 - Jul 2014</p>
-          <br />
+      <div class="cr-row cr-padding-large">
+        <div class="m6 cr-padding">
+          <h4>Australian Defence Force Special Operations Command</h4>
+          <p><b>Multimedia Technician</b> | Sydney & Perth, Australia | Dec 2005 - Jul 2014</p>
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
-            <p>
-                Researched, developed and implemented a digital asset management system for hand-held imagery. Deployed to Afghanistan to implement the system into active military special operations which resulted in a database that is still in active use over 10 years later.
-            </p>
+        <div class="m6 cr-padding">
+          <b>Key achievements</b>
+          <ul>
+            <li>
+              Researched, developed and implemented a digital asset management system for hand-held imagery. Deployed to Afghanistan to implement the system into active military special operations which resulted in a database that is still in active use over 10 years later.
+            </li>
+            <li>
+              Deployed as a multimedia technician supporting the Commonwealth Games (Feb 2006 - Mar 2006)
+            </li>
+            <li>
+              Deployed to Afghanistan to develop a Multimedia support capability within Special Operations (Dec 2008 - Jun 2009)
+            </li>
+            <li>
+              Deployed to Afghanistan to implement software and system upgrades (Apr 2012 - Oct 2012).
+            </li>
+          </ul>
         </div>
+
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <ul>
+            <li>
+              <b>Imagery Capture and Management: </b>Captured, managed, and archived high-quality photographs and videos for various purposes, including Public Relations, historical documentation, training, and operational support.
+            </li>
+            <li>
+              <b>Digital Visual Communication: </b>Provided digital visual communication support for operations and training exercises, ensuring effective dissemination of information.
+            </li>
+            <li>
+              <b>Multimedia Design and Production: </b>Designed and produced multimedia presentations, products, imagery, digital graphics, infographic presentations, and displays.
+            </li>
+            <li>
+              <b>Digital Asset Management: </b>Maintained and managed an extensive hand-held imagery database and contributed to the research, development, and implementation of an effective digital asset management system.
+            </li>
+            <li>
+              <b>Training and Development: </b>Researched, developed, and delivered effective training in photography, videography, and image/video processing for tactical personnel.
+            </li>
+          </ul>
+        </div>
+
+        <div class="m6 cr-padding">
+          <h4>Australian Army</h4>
+          <p><b>Plant Operator / Instructor</b> | Townsville & Sydney | Aug 1998 - Jun 2005</p>
+        </div>
+
+        <div class="m6 cr-padding">
+          <b>Key achievements</b>
+          <ul>
+            <li>
+              Trained in excess of 150 personnel on a variety of machine types during a combination of 3 month and 2 - 4 week courses.
+            </li>
+            <li>
+              Rewrote existing training materials to adhere to new competency-based training guidelines.
+            </li>
+            <li>
+              Created effective visual training aid packages for use in the new competency-based training syllabus.
+            </li>
+            <li>
+              Deployed as a plant operator in support of United Nations operations in East Timor (Dec 2000 - May 2001)
+            </li>
+          </ul>
+        </div>
+
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <ul>
+            <li>
+              <b>Plant Operation and Maintenance: </b>Operated and maintained a variety of construction machinery in diverse conditions, supporting military training and operations in both tactical and civilian-style construction roles.
+            </li>
+            <li>
+              <b>Training and Mentoring: </b>Trained, mentored, and assessed trainee plant operators, delivered theory and practical lessons and conducted assessments.
+            </li>
+            <li>
+              <b>Instructional Design and Delivery: </b>Developed and delivered engaging and effective theory and practical lessons, ensuring alignment with training objectives and standards.
+            </li>
+            <li>
+              <b>Assessment and Evaluation: </b>Conducted thorough theory and practical assessments of students, providing constructive feedback and identifying areas for improvement.
+            </li>
+          </ul>
+        </div>
+
+        <div class="m6 cr-padding">
+          <h4>Australian Army</h4>
+          <p><b>Soldier / Field Engineer</b> | Brisbane & Townsville | Feb 1994 - Jul 1998</p>
+        </div>
+
+        <div class="m6 cr-padding">
+          <b>Key achievements</b>
+          <ul>
+            <li>
+              Completed Basic Drivers course, gaining licences to operate multiple military vehicles in diverse operational environments
+            </li>
+            <li>
+              Completed Regimental Radio Operators course, gaining the ability to establish and maintain reliable communication networks in diverse operational environments.
+            </li>
+          </ul>
+        </div>
+
+        <div class="m6 cr-padding">
+          <b>Responsibilities</b>
+          <ul>
+            <li>
+              <b>Combat Engineering Tasks: </b>Conducted a wide range of combat engineering tasks to support military operations, including mobility, counter-mobility, and survivability operations.
+            </li>
+            <li>
+              <b>Demolitions and Explosives: </b>Employed demolitions and explosives for obstacle creation and clearance, as well as other engineering tasks.
+            </li>
+            <li>
+              <b>Construction and Infrastructure: </b>Constructed and maintained infrastructure in field environments, including roads, bridges, fortifications, and temporary facilities.
+            </li>
+            <li>
+              <b>Reconnaissance and Survey: </b>Conducted reconnaissance and surveys to gather information about terrain, obstacles, and enemy activity.
+            </li>
+            <li>
+              <b>General Soldiering Skills: </b>Maintained proficiency in basic soldiering skills, including weapons handling, marksmanship, fieldcraft, and physical fitness.
+            </li>
+          </ul>
+        </div>
+
       </div>
+      
     </div>
 
     <!-- Third Parallax Image with education text -->
     <div class="bgimg-3 cr-display-container cr-opacity-min">
       <div class="cr-display-middle">
-        <span class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">EDUCATION</span>
+        <span class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">Education</span>
       </div>
     </div>
 
 
     <!-- Container (Education & qualifications section) -->
     <div class="cr-content cr-container cr-padding-64" id="education">
-      <h3 class="cr-center">EDUCATION & QUALIFICATIONS</h3>
-      <div class="cr-row">
+      <h3 class="cr-center">Technical Education</h3>
+      <div class="cr-row cr-padding-large">
         <!-- AWS re/Start-->
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>AWS re/Start</b>
-          </p>
+        <div class="m6 cr-padding">
+          <h4>AWS re/Start</h4>
           <p>Goanna Education | May 2022 - Aug 2022</p>
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
+        <div class="m6 cr-padding">
+          <b>Core Cloud Computing Skills Skills</b>
           <ul>
             <li>
-            completed full-time, classroom based skills development and
-            training program on IT fundamentals, AWS Cloud, and professional
-            skills
-          </li>
-            <li>
-              built IT fundamental skills, including: working knowledge
-            of Linux OS, writing scripts in Python and Shell
+              <b>AWS Cloud Fundamentals: </b>Learnt core cloud computing concepts, including cloud economics, global infrastructure, shared responsibility model, and different cloud service models (IaaS, PaaS, SaaS).
             </li>
             <li>
-              learned how to apply core AWS services in the areas of compute, storage and networking including EC2, S3, IAM, VPC, Lambda, Cloud Formation, RDS and Route 53
+              <b>AWS Core Services: </b>Gained hands-on experience with key AWS services:
+              <ul>
+                <li>
+                  <b>Compute: </b>Amazon EC2, Auto Scaling (automatic scaling of resources), Elastic Load Balancing (distributing traffic across servers).
+                </li>
+                <li>
+                  <b>Storage: </b>Amazon S3 (object storage), Amazon EBS (block storage), Amazon EFS (file storage).
+                </li>
+                <li>
+                  <b>Networking: </b>Amazon VPC, subnets, route tables, security groups.
+                </li>
+                <li>
+                  <b>Databases: </b>Amazon RDS (relational database), Amazon DynamoDB (NoSQL database).
+                </li>
+                <li>
+                  <b>Security: </b>AWS Identity and Access Management (IAM), security best practices.
+                </li>
+              </ul>
             </li>
             <li>
-              learned how to configure, monitor, and support the suite of core AWS services
+              <b>Communication and Collaboration: </b>Worked in teams and developed skills in communicating technical concepts.
             </li>
             <li>
-              demonstrated strong verbal and written communication skills, including the ability to explain technical information and terminology to non-technical end users.
+              <b>Technical Problem Solving: </b>Learnt to apply logical thinking and analytical skills to solve coding challenges.
+            </li>
+          </ul>
+          <b>Related Technical Skills</b>
+          <ul>
+            <li>
+              <b>Linux Fundamentals: </b>Learnt Linux command-line skills, including navigating the file system, managing files and directories, and basic system administration.
+            </li>
+            <li>
+              <b>Networking Fundamentals: </b>Learnt networking concepts like IP addressing, subnetting, routing, and network protocols.
+            </li>
+            <li>
+              <b>Basic Programming/Scripting (Python): </b>Learnt programming concepts and scripting using Python for automation and basic cloud tasks.
+            </li>
+            <li>
+              <b>Databases (SQL): </b>Basic understanding of relational databases and SQL for querying and managing data.
+            </li>
+            <li>
+              <b>Infrastructure as Code (IaC) </b>Introduced to IaC concepts and tools like AWS CloudFormation for automating infrastructure deployment.
+            </li>
+          </ul>
+          <b>Professional and Employability Skills</b>
+          <ul>
+            <li>
+              <b>Problem-Solving and Troubleshooting: </b>Developed skills to diagnose and resolve technical issues in a cloud environment.
+            </li>
+            <li>
+              <b>Communication and Collaboration: </b>Worked effectively in teams and learnt about communicating technical concepts clearly.
+            </li>
+            <li>
+              <b>Resume Writing and Interview Skills: </b>Received guidance on creating effective resumes and preparing for technical interviews.
+            </li>
+            <li>
+              <b>Career Development: </b>Learnt about cloud career paths and opportunities.
             </li>
           </ul>
         </div>
       </div>
 
       <!-- GA SEI -->
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>Software Engineering Intensive</b>
-          </p>
+      <div class="cr-row cr-padding-large">
+        <div class="m6 cr-padding">
+          <h4>Software Engineering Intensive</h4>
           <p>General Assembly | Dec 2020 - Mar 2021</p>
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
+        <div class="m6 cr-padding">
+          <b>Core Programming Skills</b>
           <ul>
             <li>
-              completed a 12 week, full-time, online classroom-based skills
-            development and training program
+              <b>Programming Fundamentals: </b>Learnt programming concepts like variables, data types, control flow (loops, conditionals), functions, and object-oriented programming (OOP).
             </li>
             <li>
-              learned the core skills to build full-stack web applications on the job: computer science fundamentals, collaboration tools, and modern programming languages
+              <b>Data Structures and Algorithms: </b>Learnt common data structures (arrays, linked lists, etc.) and algorithms.
             </li>
             <li>
-              built multiple full-stack projects using modern frameworks and
-            stacks by applying essential object-oriented programming concepts,
-            and leveraging JavaScript libraries like React
+              <b>Communication and Collaboration: </b>Worked in teams and developed technical concepts communication skills.
             </li>
             <li>
-              incorporated functionality from third-party APIs
+              <b>Technical Problem Solving: </b>Learnt to apply logical thinking and analytical skills to solve coding challenges.
+            </li>
+          </ul>
+          <b>Front-End Web Development</b>
+          <ul>
+            <li>
+              <b>HTML: </b>Learnt about structuring web content using HTML5.
             </li>
             <li>
-              strengthened existing effective communication skills by collaborating with other students during joint programs to act as a web development team in order to carry out projects from concept to completion
+              <b>CSS: </b>Learnt to styling web pages with CSS3, including responsive design principles and frameworks like Bootstrap and Tailwind CSS.
             </li>
             <li>
-              practiced version control with Git and GitHub while executing software engineering projects in an Agile development workflow
+              <b>JavaScript: </b>Learnt to program interactive web elements using JavaScript, including DOM manipulation, event handling, and asynchronous programming.
             </li>
             <li>
-              explored the basics of DevOps, UX engineering, and cloud development during optional, self-paced content.
+              <b>Front-end Frameworks/Libraries: </b>Built simple and complex user interfaces using React JavaScript library, focusing on component-based architecture and state management.
+            </li>
+          </ul>
+          <b>Back-end Web Development</b>
+          <ul>
+            <li>
+              <b>Server-Side Languages (Node.js & Express): </b>Learnt about building server-side logic and APIs using server-side languages and frameworks.
+            </li>
+            <li>
+              <b>Databases (MySQL,PostgreSQL & MongoDB): </b>Learnt about designing and interacting with databases to store and retrieve data.
+            </li>
+            <li>
+              <b>API Design and Development: </b>Learnt to create RESTful APIs to connect front-end and back-end systems.
+            </li>
+          </ul>
+          <b>Software Engineering Practices</b>
+          <ul>
+            <li>
+              <b>Version Control (Git): </b>Learnt to use Git for code management, collaboration, and version tracking.
+            </li>
+            <li>
+              <b>Testing: </b>Learnt to write unit tests and integration tests to ensure code quality and prevent bugs.
+            </li>
+            <li>
+              <b>Debugging: </b>Learnt to identify and fixing errors in code.
+            </li>
+            <li>
+              <b>Agile Development: </b>Learnt about and applied Agile methodologies, such as Scrum or Kanban, for project management.
             </li>
           </ul>
         </div>
       </div>
 
       <!-- GA UX-->
-      <div class="cr-row">
-        <div class="cr-col m6 cr-left cr-padding-large">
-          <p>
-            <b>User Experience Design</b>
-          </p>
-          <p>General Assembly | Oct 2019 - Oct 2019</p>
+      <div class="cr-row cr-padding-large">
+        <div class="m6 cr-padding">
+          <h4>User Experience Design</h4>
+          <p>General Assembly | Oct 2019</p>
         </div>
 
-        <div class="cr-col m6 cr-padding-large">
+        <div class="m6 cr-padding">
           <ul>
             <li>
-              completed a 1 week classroom-based program focusing on core User
-              Experience design concepts
+              <b>Understanding the UX Design Process: </b>Learnt the fundamental stages of UX design, such as research, ideation, prototyping, and testing.
+            </li>
+            <li>
+              <b>User Research Fundamentals: </b>Learnt basic user research methods like user interviews, surveys, and competitive analysis to understand user needs and behaviors.
+            </li>
+            <li>
+              <b>Creating User Personas: </b>Developed representative user profiles based on research data to guide design decisions.
+            </li>
+            <li>
+              <b>Information Architecture: </b>Learnt how to organize and structure content to make it easy for users to find what they need.
+            </li>
+            <li>
+              <b>User Flows and Journey Mapping: </b>Learnt how to visualise user interactions with a product or service to identify potential pain points and opportunities.
+            </li>
+            <li>
+              <b>Wireframing: </b>Learnt how to create low-fidelity prototypes to outline the basic structure and layout of interfaces.
+            </li>
+            <li>
+              <b>Prototyping: </b>Learnt how to build interactive prototypes to simulate user experiences and test design concepts.
+            </li>
+            <li>
+              <b>Usability Testing: </b>Learnt how to conduct basic usability tests to gather feedback on prototypes and identify areas for improvement.
             </li>
           </ul>
         </div>
       </div>
-    </div>
-
-    <!-- Forth Parallax Image with Portfolio Text -->
-    <div class="bgimg-4 cr-display-container cr-opacity-min">
-        <div class="cr-display-middle">
-            <span class="cr-center cr-padding-large cr-blue cr-xxlarge cr-wide cr-animate-opacity">CLOUD PROJECTS</span>
-        </div>
-    </div>
-
-    <!-- Container (Projects section) -->
-    <div class="cr-content cr-container cr-padding-64" id="projects">
-        <h3 class="cr-center">MY PROJECTS</h3>
-        <p class="cr-center">
-          <em>Here are some of my latest cloud projects</em>
-        </p>
-        <br>
-
-        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-        <div class="cr-row-padding cr-center">
-          <h4 class="cr-center">Projects coming soon......</h4>
-        </div>
-    </div>
-
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="cr-modal cr-black" onclick="this.style.display='none'">
-    <span class="cr-button cr-large cr-black cr-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-        <div class="cr-modal-content cr-animate-zoom cr-center cr-transparent cr-padding-64">
-            <img id="img01" class="cr-image">
-            <p id="caption" class="cr-opacity cr-large"></p>
-        </div>
     </div>
 
     <!-- Fifth parallax Image with contact text -->
@@ -441,7 +786,7 @@
 
     <!-- Container (Contact section) -->
     <div class="cr-content cr-container cr-padding-64" id="contact">
-      <h3 class="cr-center">WHERE I CURRENTLY WORK</h3>
+      <h3 class="cr-center">Where I am currently based</h3>
       <p class="cr-center">
         <em>
           I would love to have a chat. Get in touch for a cup of coffee.
@@ -450,12 +795,12 @@
 
       <div class="cr-row cr-padding-32 cr-section">
         <div class="cr-col m4 cr-container">
-          <img src="images/MelbourneMap.png" alt="map image" class="cr-image cr-round">
+          <img src="images/Location_2024.png" alt="map image" class="cr-image cr-round">
         </div>
 
         <div class="cr-col m8 cr-panel">
           <div class="cr-large cr-margin-bottom">
-            <i class="fa fa-map-marker fa-fw cr-hover-text-black cr-xlarge cr-margin-right"></i> Melbourne, Australia<br>
+            <i class="fa fa-map-marker fa-fw cr-hover-text-black cr-xlarge cr-margin-right"></i> Chigasaki, Japan<br>
             <i class="fa fa-envelope fa-fw cr-hover-text-black cr-xlarge cr-margin-right"></i> Email: ken.livesey10@gmail.com<br>
           </div>
 

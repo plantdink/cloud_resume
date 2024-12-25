@@ -1,0 +1,64 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"name": "lambda-functions",
+		"path": "../../lambda-functions"
+	}
+],
+  "settings": {},
+  "launch": {
+    "configurations": [
+      {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "resume_visitor_counter:HelloWorldFunction",
+        "invokeTarget": {
+          "target": "template",
+          "templatePath": "/Users/kenlivesey/Projects/pers-projects/lambda-functions/resume_visitor_counter/template.yaml",
+          "logicalId": "HelloWorldFunction"
+        },
+        "lambda": {
+          "payload": {},
+          "environmentVariables": {}
+        }
+      },
+      {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "resume-increment-counter:HelloWorldFunction (python3.9)",
+        "invokeTarget": {
+          "target": "template",
+          "templatePath": "resume-increment-counter/template.yaml",
+          "logicalId": "HelloWorldFunction"
+        },
+        "lambda": {
+          "payload": {},
+          "environmentVariables": {}
+        }
+      },
+      {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "API resume-increment-counter:HelloWorldFunction (python3.9)",
+        "invokeTarget": {
+          "target": "api",
+          "templatePath": "resume-increment-counter/template.yaml",
+          "logicalId": "HelloWorldFunction"
+        },
+        "api": {
+          "path": "/hello",
+          "httpMethod": "get",
+          "payload": {
+            "json": {}
+          }
+        },
+        "lambda": {
+          "runtime": "python3.9"
+        }
+      }
+    ]
+  }
+}
